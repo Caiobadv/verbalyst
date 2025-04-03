@@ -1,6 +1,6 @@
 from gensim.models import KeyedVectors
 
-caminho = "/Users/caiobarreto/Desktop/faculdade/Projetos/Verbalyst/verbalyst/cbow_s50.txt"
+caminho = "/Users/caiobarreto/Desktop/faculdade/Projetos/mechv/verbalyst/cbow_s50.txt"
 
 # Carregar o modelo (formato texto)
 print("Carregando o modelo...")

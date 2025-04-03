@@ -1,0 +1,31 @@
+# Ignora ambiente virtual
+venv/
+
+# Ignora arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignora arquivos temporários e de backup
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignora arquivos de modelos grandes (Word2Vec, GloVe, etc)
+*.bin
+*.vec
+*.model
+
+# Ignora arquivo específico de modelo
+cbow_s50.txt
+
+# Ignora notebooks temporários
+.ipynb_checkpoints/
+
+# Ignora arquivos do sistema/macOS
+.DS_Store
+
+# Ignora configurações locais de IDEs
+.vscode/
+.idea/
