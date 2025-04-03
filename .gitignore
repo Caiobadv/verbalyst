@@ -29,3 +29,6 @@ cbow_s50.txt
 # Ignora configurações locais de IDEs
 .vscode/
 .idea/
+
+# Configuração local do modelo
+config_local.json

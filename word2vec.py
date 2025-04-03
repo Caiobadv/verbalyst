@@ -1,7 +1,11 @@
+import json
 from gensim.models import KeyedVectors
 
-caminho = "/Users/caiobarreto/Desktop/faculdade/Projetos/mechv/verbalyst/cbow_s50.txt"
+# Carregar caminho do arquivo local
+with open("config_local.json") as f:
+    config = json.load(f)
 
+caminho = config["modelo_path"]
 # Carregar o modelo (formato texto)
 print("Carregando o modelo...")
 modelo = KeyedVectors.load_word2vec_format(caminho, binary=False)
